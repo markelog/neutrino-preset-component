@@ -1,4 +1,4 @@
-# Neutrino Library Preset [![Build Status](https://travis-ci.org/markelog/neutrino-preset-library.svg?branch=master)](https://travis-ci.org/markelog/neutrino-preset-library)
+# Neutrino Library Preset [![Build Status](https://travis-ci.org/markelog/neutrino-preset-component.svg?branch=master)](https://travis-ci.org/markelog/neutrino-preset-component)
 
 > Neutrino preset for building library, components and such
 
@@ -17,16 +17,16 @@ Similar to the [neutrino-preset-web](https://github.com/mozilla-neutrino/neutrin
 ## Install
 
 ```bash
-$ npm install --save-dev neutrino neutrino-preset-library
+$ npm install --save-dev neutrino neutrino-preset-component
 ```
 
 ## Development
 
-For the development it's recommended to use [`neutrino-preset-web`](https://github.com/mozilla-neutrino/neutrino-dev/tree/master/packages/neutrino-preset-web). See example of using `neutrino-preset-web` for development and `neutrino-preset-library` for build in in [this](https://github.com/wearereasonablepeople/d3-timeline-scroll) project. See `package.json` and `.neutrinorc` files.
+For the development it's recommended to use [`neutrino-preset-web`](https://github.com/mozilla-neutrino/neutrino-dev/tree/master/packages/neutrino-preset-web). See example of using `neutrino-preset-web` for development and `neutrino-preset-component` for build in in [this](https://github.com/wearereasonablepeople/d3-timeline-scroll) project. See `package.json` and `.neutrinorc` files.
 
 ## Project Layout
 
-`neutrino-preset-library` follows the standard [project layout](https://neutrino.js.org/project-layout) specified by Neutrino. This means that by default all project source code should live in a directory named `src` in the root of the project. This includes JavaScript files, CSS stylesheets, images, and any other assets that would be available
+`neutrino-preset-component` follows the standard [project layout](https://neutrino.js.org/project-layout) specified by Neutrino. This means that by default all project source code should live in a directory named `src` in the root of the project. This includes JavaScript files, CSS stylesheets, images, and any other assets that would be available
 to your compiled project.
 
 Edit your project's package.json to add commands for starting and building the application:
@@ -34,7 +34,7 @@ Edit your project's package.json to add commands for starting and building the a
 ```json
 {
   "scripts": {
-    "build": "neutrino build --use neutrino-preset-library"
+    "build": "neutrino build --use neutrino-preset-component"
   }
 }
 ```
@@ -43,7 +43,7 @@ If you are using `.neutrinorc.js`, add this preset to your use array instead of 
 
 ```js
 module.exports = {
-  use: ['neutrino-preset-library']
+  use: ['neutrino-preset-component']
 };
 ```
 
@@ -76,7 +76,7 @@ The following shows how you can pass an options object to the Web preset and ove
 ```js
 module.exports = {
   use: [
-    ['neutrino-preset-library', {
+    ['neutrino-preset-component', {
       // Add additional Babel plugins, presets, or env options
       babel: {
         // Override options for babel-preset-env
@@ -100,7 +100,7 @@ module.exports = {
 
 ## Customizing
 
-To override the build configuration, start with the documentation on [customization](https://neutrino.js.org/customization). `neutrino-preset-library` creates some conventions to make overriding the configuration easier once you are ready to make changes
+To override the build configuration, start with the documentation on [customization](https://neutrino.js.org/customization). `neutrino-preset-component` creates some conventions to make overriding the configuration easier once you are ready to make changes
 
 ### Rules
 
