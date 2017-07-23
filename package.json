@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-library",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Neutrino preset for building library, components and such",
   "main": "index.js",
   "scripts": {
