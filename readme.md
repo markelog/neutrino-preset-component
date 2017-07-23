@@ -6,10 +6,10 @@
 
 Similar to the [neutrino-preset-web](https://github.com/mozilla-neutrino/neutrino-dev/tree/master/packages/neutrino-preset-web) not for the apps though, but for the libraries, components and such.
 
-Nope, not for the react components... yet :)
+> Nope, not really for the react components... yet :)
 
 - Zero upfront configuration necessary to start developing and building a library
-- Modern Babel compilation supporting ES modules, last 2 major browser versions, async functions, and dynamic imports
+- Modern Babel compilation supporting ES modules, last 2 major browser versions and dynamic imports
 - Webpack loaders for importing CSS, images, icons, fonts
 - Tree-shaking to create smaller bundles
 - Production-optimized bundles with Babili minification
