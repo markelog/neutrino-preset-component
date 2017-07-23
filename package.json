@@ -1,0 +1,43 @@
+{
+  "name": "neutrino-preset-library",
+  "version": "1.0.0",
+  "description": "Neutrino preset for building library, components and such",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "ava": "ava",
+    "test": "npm run lint && npm run ava"
+  },
+  "keywords": [
+    "neutrino",
+    "neutrino-preset",
+    "library",
+    "component"
+  ],
+  "author": "Oleg Gaidarenko <markelog@gmail.com>",
+  "license": "MIT",
+  "repository": "markelog/neutrino-preset-library",
+  "homepage": "https://github.com/markelog/neutrino-preset-library",
+  "bugs": "https://github.com/markelog/neutrino-preset-library/issues",
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.5.2",
+    "fast-async": "^6.3.0",
+    "neutrino-middleware-clean": "^6.1.4",
+    "neutrino-middleware-compile-loader": "^6.1.4",
+    "neutrino-middleware-copy": "^6.1.4",
+    "neutrino-middleware-font-loader": "^6.1.4",
+    "neutrino-middleware-image-loader": "^6.1.4",
+    "neutrino-middleware-minify": "^6.1.4",
+    "neutrino-middleware-style-loader": "^6.1.4"
+  },
+  "peerDependencies": {
+    "neutrino": "^6.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "eslint": "^3.15.0",
+    "eslint-config-sexy": "^2.0.0",
+    "neutrino": "^6.1.4"
+  }
+}
